@@ -1,0 +1,90 @@
+{
+  "districts": [
+    {
+      "id": "natore",
+      "name_bn": "নাটোর"
+    },
+    {
+      "id": "pabna",
+      "name_bn": "পাবনা"
+    },
+    {
+      "id": "rajshahi",
+      "name_bn": "রাজশাহী"
+    }
+  ],
+  "categories": [
+    {
+      "id": "cardiology",
+      "name_bn": "হৃদরোগ (Heart)"
+    },
+    {
+      "id": "medicine",
+      "name_bn": "মেডিসিন"
+    },
+    {
+      "id": "child",
+      "name_bn": "শিশু রোগ"
+    },
+    {
+      "id": "gynae",
+      "name_bn": "স্ত্রী রোগ ও প্রসূতি"
+    },
+    {
+      "id": "skin",
+      "name_bn": "চর্ম ও যৌন রোগ"
+    }
+  ],
+  "doctors": [
+    {
+      "id": 101,
+      "name": "ডাঃ মোঃ রফিকুল ইসলাম",
+      "degree": "এমবিবিএস, এফসিপিএস (মেডিসিন)",
+      "speciality": "হৃদরোগ বিশেষজ্ঞ",
+      "category_id": "cardiology",
+      "district_id": "natore",
+      "chamber": "মেডিসিন কেয়ার, হাসপাতাল রোড, নাটোর",
+      "visiting_time": "বিকাল ৪টা - রাত ৮টা (শুক্র বন্ধ)",
+      "phone": "01700000000"
+    },
+    {
+      "id": 102,
+      "name": "ডাঃ শামসুল আলম",
+      "degree": "এমবিবিএস, ডি-কার্ড",
+      "speciality": "হৃদরোগ ও মেডিসিন বিশেষজ্ঞ",
+      "category_id": "cardiology",
+      "district_id": "pabna",
+      "chamber": "পাবনা পপুলার ডায়াগনস্টিক সেন্টার",
+      "visiting_time": "সকাল ১০টা - দুপুর ২টা",
+      "phone": "01800000000"
+    }
+  ],
+  "hospitals": [
+    {
+      "id": 201,
+      "name": "নাটোর সদর হাসপাতাল",
+      "address": "সদর, নাটোর",
+      "district_id": "natore",
+      "type": "সরকারি",
+      "phone": "01711111111"
+    },
+    {
+      "id": 202,
+      "name": "ইশ্বরদী উপজেলা স্বাস্থ্য কমপ্লেক্স",
+      "address": "ইশ্বরদী, পাবনা",
+      "district_id": "pabna",
+      "type": "সরকারি",
+      "phone": "01722222222"
+    }
+  ],
+  "ambulances": [
+    {
+      "id": 301,
+      "name": "সেবা এ্যাম্বুলেন্স সার্ভিস",
+      "driver_name": "মোঃ রানা",
+      "area": "বড়াইগ্রাম, নাটোর",
+      "district_id": "natore",
+      "phone": "01933333333"
+    }
+  ]
+}
